@@ -1,4 +1,4 @@
-var db = require("../../src/helper/DBUtil");
+var db = require("../helper/DBUtil");
 
 const insertUser = async (param, createdBy) => {
   return new Promise(function (resolve, reject) {
